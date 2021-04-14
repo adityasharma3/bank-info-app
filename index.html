@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport">
+    <title>Bank Details</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <center>
+    <h1>Bank Details Portal</h1>
+    <div class="input-section">
+        <input type="text" id="ifsc_code">
+        <input type="button" id="submit" value="submit" onclick="getData()">
+    </div>
+
+    <div class="output-section" id="output-section">
+        <h2 id="bank-name"></h2>
+        <div class="particulars1">
+            <table>
+                <tr>
+                    <th>IFSC</th>
+                    <td id="ifsc"></td>
+                </tr>
+
+                <tr>
+                    <th>MICR</th>
+                    <td id="micr"></td>
+                </tr>
+
+                <tr>
+                    <th>Branch</th>
+                    <td id="branch"></td>
+                </tr>
+
+                <tr>
+                    <th>Address</th>
+                    <td id="address"></td>
+                </tr>
+
+                <tr>
+                    <th>Contact</th>
+                    <td id="contact"></td>
+                </tr>
+
+                <tr>
+                    <th>UPI</th>
+                    <td id="upi"></td>
+                </tr>
+
+                <tr>
+                    <th>RTGS</th>
+                    <td id="rtgs"></td>
+                </tr>
+
+                <tr>
+                    <th>NEFT</th>
+                    <td id="neft"></td>
+                </tr>
+
+                <tr>
+                    <th>IMPS</th>
+                    <td id="imps"></td>
+                </tr>
+
+                <tr>
+                    <th>City</th>
+                    <td id="city"></td>
+                </tr>
+
+                <tr>
+                    <th>District</th>
+                    <td id="district"></td>
+                </tr>
+
+                <tr>
+                    <th>SWIFT</th>
+                    <td id="swift"></td>
+                </tr>
+                
+            </table>
+        </div>
+    </div>
+    </center>
+</body>
+</html>
