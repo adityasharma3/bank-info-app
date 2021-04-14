@@ -78,3 +78,15 @@ table td , table th {
 table tr {
     margin: 10px 20px;
 }
+
+footer p {
+    bottom: 10px;
+    position: absolute;
+    left: 43.5%;
+    align-items: center;
+}
+
+footer > p > a {
+    text-decoration: none;
+    color: white;
+}
